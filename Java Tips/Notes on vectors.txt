@@ -1,0 +1,7 @@
+1. Vectors are a data structure with a contiguous block of memory, just like an array.
+2. Becaouse memory locations are contiguous, they can be randomly accessed so that the 
+	access time of an element of the vector is constant.
+3. Storag is managed automatically soo that on an attempt to insert an element into a 
+   full vector, a larger memory block is allocated for the vector, the vector elements 
+   are copied to the new block, and trhe old one is released. 
+4. Vectors are thus flexible array, in that, an array whose size can be dynamically changed.
